@@ -1,0 +1,12 @@
+matplotlib
+pandas
+plotly 
+plotnine
+seaborn
+spacy
+requests
+spacytextblob
+beautifulsoup4
+html5lib
+requests
+ipykernel
