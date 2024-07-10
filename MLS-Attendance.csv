@@ -1,4 +1,4 @@
-Club,StadiumCapacity,TotalSpectators,AverageAttendance,Matches,SoldOut,Capacity %,Year
+﻿Club,StadiumCapacity,TotalSpectators,AverageAttendance,Matches,SoldOut,Capacity %,Year
 Atlanta,73.019,299.85,49.975,6,-,0.684,2023
 Nashville,30,285.38,28.538,10,1,0.951,2023
 Charlotte,75.412,208.987,34.831,6,-,0.462,2023
