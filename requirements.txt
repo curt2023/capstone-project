@@ -12,3 +12,4 @@ requests
 ipykernel
 numpy
 jupyterlab
+sklearn
