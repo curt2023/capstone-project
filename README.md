@@ -2,6 +2,32 @@
 NWMSU Capstone Project: Analysis of MLS data.
 ## Project Overview
 This project is to identify if there is a correlation between MLS win/loss ratio and match attendance. In order to investigate this topic MLS yearly club stats will be used to determine a win/loss ratio for each year. To calculate this ratio the total number of regular season wins will be divided by the total number of regular season losses. This ratio will be analyzed using advanced analytical techniques to determine if there is a correlation between win/loss ratio and the average match attendance.
+
+## Creation of a Virtual Environment
+
+A virtual environment .venv was created to hold the packages used to execute this project.
+
+The following packages were installed into this environment.
+- matplotlib
+- pandas
+- plotly 
+- plotnine
+- seaborn
+- spacy
+- requests
+- spacytextblob
+- beautifulsoup4
+- html5lib
+- requests
+- ipykernel
+- numpy
+- jupyterlab
+- sklearn
+
+To activate the virtual environment within VScode the following command was used
+
+.venv\scripts\activate
+
 ## Data Used
  To fully investiget this question, data will be pulled from two different web sources. Both datasets contain unique information that will play a vital throughout this project. The following sections will take a deeper look at both of these datasets and the elements contained within them. 
 ### Links to Data Sources
@@ -20,17 +46,17 @@ This data was cleaned and transformed following the steps that can be found in t
 
 The following outline has been used to to explore
 the datasets related to this project.
-➢ Import the data
-➢ Investigate and define columns
-➢ Investigate the distribution of data
-➢ Look for outliers in the data
-➢ Look for and create a plan to address any missing data
-➢ Data transformations
-➢ Investigate variables that could influence this project topic
-➢ Import the data
-➢ Investigate and define columns
-➢ Missing data
-➢ Data transformations
+- Import the data
+- Investigate and define columns
+-  Investigate the distribution of data
+-  Look for outliers in the data
+-  Look for and create a plan to address any missing data
+-  Data transformations
+-  Investigate variables that could influence this project topic
+-  Import the data
+-  Investigate and define columns
+-  Missing data
+-  Data transformations
 
 While executing the EDA steps a large outlier was identified. The data from the year 2020 was omitted because this was during the COVID-19 pandemic. The match attendance for this year was significantly low and would skew the results. Below you can see a visual depicting this outlier.
 
